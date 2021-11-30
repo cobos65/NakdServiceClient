@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\NakdServiceClient.Business.Contracts.csproj" />
+    <ProjectReference Include="..\NakdServiceClient.Domain\NakdServiceClient.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
