@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\NakdServiceClient.Business.Contracts.csproj" />
+    <ProjectReference Include="..\NakdServiceClient.Business.Contracts\NakdServiceClient.Business.Contracts.csproj" />
     <ProjectReference Include="..\NakdServiceClient.Domain\NakdServiceClient.Domain.csproj" />
   </ItemGroup>
 
