@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NakdServiceClient.Business.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NakdServiceClient.Business.Contracts", "NakdServiceClient.Business.Contracts\NakdServiceClient.Business.Contracts.csproj", "{98AF38AB-F06E-43F5-A37A-48BDC3F087BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NakdServiceClient.Services", "NakdServiceClient.Services\NakdServiceClient.Services.csproj", "{5239B691-DBEE-4A15-96AC-3366D07E432C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NadkServiceClient.Services.Contracts", "NadkServiceClient.Services.Contracts\NadkServiceClient.Services.Contracts.csproj", "{1A6C92B2-DB3C-428C-A6BC-49202581306E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{98AF38AB-F06E-43F5-A37A-48BDC3F087BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98AF38AB-F06E-43F5-A37A-48BDC3F087BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98AF38AB-F06E-43F5-A37A-48BDC3F087BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5239B691-DBEE-4A15-96AC-3366D07E432C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5239B691-DBEE-4A15-96AC-3366D07E432C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5239B691-DBEE-4A15-96AC-3366D07E432C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5239B691-DBEE-4A15-96AC-3366D07E432C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6C92B2-DB3C-428C-A6BC-49202581306E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6C92B2-DB3C-428C-A6BC-49202581306E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6C92B2-DB3C-428C-A6BC-49202581306E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6C92B2-DB3C-428C-A6BC-49202581306E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

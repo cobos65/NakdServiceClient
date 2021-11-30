@@ -1,8 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using NakdServiceClient.Business.Contracts.Services;
-using NakdServiceClient.Business.Services;
 using NakdServiceClient.Domain;
+using NakdServiceClient.Services;
 using RestSharp;
 using Shouldly;
 using System;

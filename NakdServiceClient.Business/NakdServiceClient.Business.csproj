@@ -1,16 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RestSharp" Version="106.13.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\NakdServiceClient.Business.Contracts\NakdServiceClient.Business.Contracts.csproj" />
     <ProjectReference Include="..\NakdServiceClient.Domain\NakdServiceClient.Domain.csproj" />
+    <ProjectReference Include="..\NakdServiceClient.Services\NakdServiceClient.Services.csproj" />
   </ItemGroup>
 
 </Project>

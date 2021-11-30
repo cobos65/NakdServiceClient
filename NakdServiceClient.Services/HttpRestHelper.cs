@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace NakdServiceClient.Business.Services
+namespace NakdServiceClient.Services
 {
     public class HttpRestHelper : IHttpRestHelper
     {
